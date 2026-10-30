@@ -1,0 +1,85 @@
+{
+  "formatVersion": 2,
+  "revision": 2026110301,
+  "games": [
+    {
+      "id": "genshin",
+      "name": "Genshin Impact",
+      "shortName": "Genshin",
+      "abbr": "GI",
+      "color": "#7CC6FF",
+      "serverZone": "Etc/GMT+5"
+    },
+    {
+      "id": "starrail",
+      "name": "Honkai: Star Rail",
+      "shortName": "Star Rail",
+      "abbr": "HSR",
+      "color": "#B9A6FF",
+      "serverZone": "Etc/GMT+5"
+    },
+    {
+      "id": "zzz",
+      "name": "Zenless Zone Zero",
+      "shortName": "ZZZ",
+      "abbr": "ZZZ",
+      "color": "#FF5577",
+      "serverZone": "Etc/GMT+5"
+    },
+    {
+      "id": "wuwa",
+      "name": "Wuthering Waves",
+      "shortName": "Wuthering Waves",
+      "abbr": "WW",
+      "color": "#4FC3B5",
+      "serverZone": "Etc/GMT+5"
+    }
+  ],
+  "templateEvents": [
+    {
+      "id": "genshin-abismo",
+      "gameId": "genshin",
+      "title": "Reinicio del Abismo Espiral",
+      "type": "ENDGAME",
+      "start": "2026-10-17T04:00",
+      "end": "2026-11-17T04:00",
+      "recurrence": {
+        "kind": "MONTHLY"
+      }
+    },
+    {
+      "id": "starrail-memoria-4.6-1",
+      "gameId": "starrail",
+      "title": "Memoria del Caos",
+      "type": "ENDGAME",
+      "start": "2026-09-27T22:00",
+      "end": "2026-11-02T04:00",
+      "recurrence": {
+        "kind": "NONE"
+      }
+    },
+    {
+      "id": "starrail-memoria-4.6-2",
+      "gameId": "starrail",
+      "title": "Memoria del Caos",
+      "type": "ENDGAME",
+      "start": "2026-11-02T04:00",
+      "end": "2026-12-14T04:00",
+      "recurrence": {
+        "kind": "NONE"
+      }
+    },
+    {
+      "id": "zzz-shiyu",
+      "gameId": "zzz",
+      "title": "Defensa Shiyu: Nodo Crítico",
+      "type": "ENDGAME",
+      "start": "2026-10-16T04:00",
+      "end": "2026-10-30T04:00",
+      "recurrence": {
+        "kind": "EVERY_DAYS",
+        "days": 14
+      }
+    }
+  ]
+}
